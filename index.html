@@ -1,0 +1,264 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../css/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="../css/custom-style.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="../css/hljs-base16.css">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+        <style>
+  
+            .gridlines line {
+              stroke: #bbb;
+            }
+            
+            .gridlines .domain {
+              stroke: none;
+            }
+
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .container{
+                margin-left: 500px;
+                margin-top: 75px;
+            }
+          
+            </style>
+          
+    </head>
+    <body>
+        <div class="container" >
+            <h1>A Visualization of World Wide Unicorn Companies </h1>
+            <svg id="scatterplot" height="800" width="1100" style="margin-top:50px" ></svg>
+            <script>
+                d3.csv("World_Wide_Unicorn_Startups.csv").then((data) =>{
+                    console.log(data)
+                    const svg = d3.select('svg#scatterplot');
+                    const width = svg.attr('width');
+                    const height = svg.attr('height');
+                    const margins = {top: 70, right: 310, bottom: 50, left: 75}; 
+                    const chartWidth = width - margins.left - margins.right;
+                    const chartHeight = height - margins.top - margins.bottom;
+
+                    let chartArea = svg.append('g')
+                        .attr('transform',`translate(${margins.left},${margins.top})`);
+
+                    const timeParser = d3.timeParse('%d/%m/%Y');
+
+                    techIndustries=['Artificial intelligence', 'Artificial Intelligence','Fintech','Finttech','Internet software & services','Data management & analytics','Edtech','E-commerce & direct-to-consumer','Hardware','Cybersecurity','Mobile & telecommunications']
+                    data.forEach( d => {
+                        d['numVal'] = +d['Valuation']
+                        d['dateFormatted'] = timeParser(d["Date"]);
+                        if(techIndustries.includes(d['Industry'])){
+                            d['IndustryGroup'] = "Technology";
+                        }else{
+                            d["IndustryGroup"] = d['Industry'] 
+                        }
+                    });
+                    
+                    //Filtering for data from the United States
+                    newData = [];
+                    data.forEach( d=> {
+                        if(d['Country'] == "United States"){
+                            newData.push(d);
+                        }
+                    })
+
+
+                    console.log(newData);
+
+                    const dateExtent = d3.extent(newData, d => d['dateFormatted'] );
+                    const xScale = d3.scaleTime().domain(dateExtent)
+                                                    .range([0, chartWidth]);
+                    
+                    const valExtent = d3.extent(newData, d => d['numVal'] );
+                    console.log(valExtent)
+                    const yScale = d3.scaleLog().domain(valExtent)
+                                                    .range([chartHeight, 0]);
+
+                    let leftAxis = d3.axisLeft(yScale)
+                                    .tickFormat(d3.format("$.0s"));
+                    svg.append("text")
+                        .attr("x", (7*width)/18)
+                        .attr("y", 20)
+                        .attr('class', 'title')
+                        .attr("text-anchor", "middle")
+                        .style("font-size", "25px")
+                        .style("font-family", "Georgia")
+                        .text("Valuations of Unicorns in the United States Over the Years");
+
+                    svg.append("text")
+                        .attr("text-anchor", "end")
+                        .attr("class", "yLabel")
+                        .attr("y", 6)
+                        .attr("x", -300)
+                        .attr("dy", ".75em")
+                        .attr("transform", "rotate(-90)")
+                        .text("Valuation (Billions of dollars)");
+
+                    svg.append('g')
+                        .attr('class', 'y axis')
+                        .attr('transform',`translate(${margins.left-10},${margins.top})`) 
+                        .call(leftAxis);
+
+                    let bottomAxis = d3.axisBottom(xScale).ticks(6)  
+                    let element = svg.append('g')
+                        .attr('class', 'y axis')
+                        .attr('transform',`translate(${margins.left},${chartHeight+margins.top+10})`)
+                        .call(bottomAxis);
+                    
+                    svg.append("text")
+                        .attr("text-anchor", "end")
+                        .attr("class", "xLabel1")
+                        .attr("x", (7*width)/18)
+                        .attr("y", height - 6)
+                        .text("Date");
+
+                    let leftGridlines = d3.axisLeft(yScale)
+                        .tickSize(-chartWidth-10)
+                        .tickFormat("")
+        
+                    svg.append('g').attr('class', 'y gridlines') 
+                        .attr('transform',`translate(${margins.left-10},${margins.top})`)
+                        .call(leftGridlines);
+                    
+                    let bottomGridlines = d3.axisBottom(xScale)
+                        .tickSize(-chartHeight-10)
+                        .tickFormat('')
+                        .ticks(6);
+
+                    svg.append('g').attr('class', 'x gridlines') 
+                        .attr('transform',`translate(${margins.left},${chartHeight+margins.top+10})`)
+                        .call(bottomGridlines);
+
+                    const colorScale = d3.scaleOrdinal().domain(['Technology','Supply chain, logistics, & delivery', 'Health', 'Consumer & retail', 'Auto & transportation', 'Travel', 'Other'])
+                                                    .range( ["crimson", "green", "blue", "orange", "indigo", 'darkturquoise', "peru"] );
+
+                    newData.forEach((d,i) =>
+
+                        chartArea.append('circle')
+                            .attr('cx', xScale(d['dateFormatted']))
+                            .attr('cy', yScale(d['numVal']))
+                            .attr('r',"5px")
+                            .style('fill', colorScale(d["IndustryGroup"]))
+                            .style('opacity', 0.6)
+                        )
+                    
+                    var legend = d3.legendColor()
+                        .scale(colorScale);
+
+                    svg.append("g")
+                        .attr("transform", "translate(800,70)")
+                        .call(legend);
+                    })
+                    
+            </script>
+
+            <p>
+                <svg id="dotplot" height="500" width="800" style="margin-top:50px"></svg>
+
+                <script id = "script" >
+            
+                    // creating margins and space
+                    const svg = d3.select("svg#dotplot");
+                    const width = svg.attr("width");
+                    const height = svg.attr("height");
+                    const margin = {top: 70, right: 10, bottom: 50, left: 75};
+                    const chartWidth = width - margin.left - margin.right;
+                    const chartHeight = height - margin.top - margin.bottom;
+            
+                    let annotations = svg.append("g").attr("id","annotations");
+                    let chartArea = svg.append("g").attr("id","points")
+                                .attr("transform",`translate(${margin.left},${margin.top})`);
+                    
+                    // data from csv refined in Jupyter notebook
+                    d3.csv('country_valuations.csv').then( (data) => {
+            
+                        data.forEach( d => {
+                            d.Valuation = +(d.Valuation)
+                        })
+            
+                        console.log(data);
+                        dataset = data;
+                        
+                        // valuation scale Y axis (in billions)
+                        const valueExtent = d3.extent(data, d => d['Valuation']);
+                        const valueScale = d3.scaleLog().domain(valueExtent).range([chartHeight, 0]);
+                        
+                        // country categorical scale X axis 
+                        const countries = d3.map(data, d => d.Country)
+                        const countryScale = d3.scaleBand().domain(countries).range([0, chartWidth]).padding(0.10);
+                        
+                        // color scale just to make each country different color
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+            
+                        console.log(valueExtent)
+                        
+                        // y axis
+                        let leftAxis = d3.axisLeft(valueScale)
+                            .tickFormat(d3.format("$.0s"))
+                        let leftGridlines = d3.axisLeft(valueScale)
+                                .tickSize(-chartWidth-10)
+                                .tickFormat("") 
+                        svg.append("text")
+                            .attr("x", width/2)
+                            .attr("y", 20)
+                            .attr('class', 'title')
+                            .attr("text-anchor", "middle")
+                            .style("font-size", "25px")
+                            .style("font-family", "Georgia")
+                            .text("Valuation Distributions Of Top 10 Countries");
+                
+                        svg.append("text")
+                            .attr("text-anchor", "end")
+                            .attr("class", "yLabel")
+                            .attr("y", 6)
+                            .attr("x", -150)
+                            .attr("dy", ".75em")
+                            .attr("transform", "rotate(-90)")
+                            .text("Valuation (Billions of dollars)"); 
+
+                        annotations.append("g")
+                            .attr("class", "y axis")
+                            .attr("transform","translate("+(margin.left-10)+","+margin.top+")")
+                            .call(leftAxis)
+                        annotations.append("g")
+                            .attr("class", "y gridlines")
+                            .attr("transform","translate("+(margin.left-10)+","+margin.top+")")
+                            .call(leftGridlines);
+                        
+                        // x axis
+                        let bottomAxis = d3.axisBottom(countryScale);
+                        
+
+                        svg.append("text")
+                            .attr("text-anchor", "end")
+                            .attr("class", "xLabel")
+                            .attr("x", width/2)
+                            .attr("y", height - 6)
+                            .text("Country");
+                        annotations.append("g")
+                            .attr("class", "x axis")
+                            .attr("transform","translate("+margin.left+","+(chartHeight+margin.top+10)+")")
+                            .call(bottomAxis);
+                        
+                        // for each on data to plot dots
+                        data.forEach( (d, i) => {
+            
+                        chartArea.append('circle')
+                            .attr('cy', valueScale(d.Valuation))
+                            .attr('cx', countryScale(d.Country) + 33)
+                            .attr('r', 10)
+                            .attr('opacity', 0.3)
+                            .style('fill', colorScale(d.Country));
+            
+                        });
+                    });
+                </script>
+            </p>
+        </div>
+    </body>
+</html>

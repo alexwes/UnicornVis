@@ -1,0 +1,839 @@
+,Company,Valuation,Country
+0,Bytedance,140.0,China
+1,SpaceX,100.3,United States
+2,Stripe,95.0,United States
+5,Instacart,39.0,United States
+6,Databricks,38.0,United States
+7,Revolut,33.0,United Kingdom
+8,Nubank,30.0,Brazil
+9,Epic Games,28.7,United States
+10,Chime,25.0,United States
+12,BYJU's,21.0,India
+13,Xiaohongshu,20.0,China
+15,Fanatics,18.0,United States
+16,Yuanfudao,15.5,China
+17,DJI Innovations,15.0,China
+18,SHEIN,15.0,China
+19,Checkout.com,15.0,United Kingdom
+20,goPuff,15.0,United States
+21,Plaid Technologies,13.4,United States
+22,Grammarly,13.0,United States
+23,Devoted Health,12.6,United States
+24,Faire,12.4,United States
+25,Brex,12.3,United States
+26,SenseTime,12.0,China
+27,JUUL Labs,12.0,United States
+28,Bitmain Technologies,12.0,China
+29,Biosplice Therapeutics,12.0,United States
+30,GoodLeap,12.0,United States
+31,ZongMu Technology,11.4,China
+32,Global Switch,11.1,United Kingdom
+33,Celonis,11.0,Germany
+34,Weilong,10.88,China
+36,Ripple,10.0,United States
+37,Figma,10.0,United States
+38,Gusto,10.0,United States
+39,reddit,10.0,United States
+40,Talkdesk,10.0,United States
+41,Notion Labs,10.0,United States
+42,Thrasio,10.0,United States
+43,Digital Currency Group,10.0,United States
+44,OutSystems,9.5,United States
+45,ServiceTitan,9.5,United States
+46,HEYTEA,9.28,China
+47,N26,9.23,Germany
+48,Klaviyo,9.2,United States
+50,Tanium,9.0,United States
+51,Chehaoduo,9.0,China
+52,Niantic,9.0,United States
+53,OYO Rooms,9.6,India
+54,Rapyd,8.75,United Kingdom
+56,Snyk,8.6,United Kingdom
+57,Nuro,8.6,United States
+58,Lacework,8.3,United States
+59,Tipalti,8.3,United States
+60,Tempus,8.1,United States
+61,Xingsheng Selected,8.0,China
+62,Dream11,8.0,India
+63,Fireblocks,8.0,United States
+64,Caris Life Sciences,7.83,United States
+65,Dapper Labs,7.6,Canada
+66,Hopin,7.75,United Kingdom
+68,Netskope,7.5,United States
+70,Carta,7.4,United States
+71,Scale AI,7.3,United States
+72,Argo AI,7.25,United States
+73,Gong,7.25,United States
+74,TripActions,7.25,United States
+75,Gemini,7.1,United States
+76,We Doctor,7.0,China
+77,Discord,7.0,United States
+78,Automation Anywhere,6.8,United States
+79,Ziroom,6.6,China
+80,National Stock Exchange of India,6.5,India
+82,Rippling,6.5,United States
+83,Ola Cabs,7.5,India
+84,Samsara Networks,6.3,United States
+85,DataRobot,6.3,United States
+86,Personio,6.3,Germany
+87,Hinge Health,6.2,United States
+88,Black Unicorn Factory,6.1,United States
+89,Benchling,6.1,United States
+90,Royole Corporation,6.0,China
+91,Yuanqi Senlin,6.0,China
+92,Better.com,6.0,United States
+93,Wiz,6.0,Israel
+94,Bolt,6.0,United States
+95,Attentive,5.99,United States
+96,Easyhome,5.78,China
+97,Lianjia,5.77,China
+98,Airtable,5.77,United States
+99,Vice Media,5.7,United States
+100,Cityblock Health,5.7,United States
+101,Workato,5.7,United States
+102,Postman,5.6,United States
+103,FiveTran,5.6,United States
+104,Pony.ai,5.3,United States
+105,Trade Republic,5.3,Germany
+108,Blockchain.com,5.2,United Kingdom
+109,HashiCorp,5.1,United States
+110,OneTrust,5.1,United States
+111,QuintoAndar,5.1,Brazil
+112,C6 Bank,5.05,Brazil
+113,United Imaging Healthcare,5.0,China
+114,Hello TransTech,5.0,China
+115,Swiggy,5.5,India
+116,Deel,5.5,United States
+118,Horizon Robotics,5.0,China
+119,WM Motor,5.0,China
+120,Ro,5.0,United States
+121,Howden Group Holdings,5.0,United Kingdom
+122,SambaNova Systems,5.0,United States
+123,ZEPZ,5.0,United Kingdom
+124,OakNorth,5.0,United Kingdom
+125,Moon Active,5.0,Israel
+126,Meesho,4.9,India
+127,Cerebral,4.8,United States
+128,Anduril,4.6,United States
+129,Lyra Health,4.6,United States
+130,Dataiku,4.6,United States
+131,Checkr,4.6,United States
+132,Color,4.6,United States
+133,Meizu Technology,4.58,China
+135,Zenefits,4.5,United States
+136,VIPKid,4.5,China
+137,Socure,4.5,United States
+138,Monzo,4.5,United Kingdom
+139,UBTECH Robotics,4.45,China
+140,Outreach,4.4,United States
+142,BetterUp,4.7,United States
+143,Arctic Wolf Networks,4.3,United States
+144,Sorare,4.3,France
+145,Relativity Space,4.2,United States
+146,Miaoshou Doctor,4.25,China
+147,Chainalysis,4.2,United States
+148,ThoughtSpot,4.2,United States
+149,SSENSE,4.15,Canada
+150,Dataminr,4.1,United States
+152,Houzz,4.0,United States
+153,CRED,4.01,India
+155,MEGVII,4.0,China
+156,Greensill,4.0,United Kingdom
+157,Impossible Foods,4.0,United States
+158,Radiology Partners,4.0,United States
+159,Next Insurance,4.0,United States
+160,Patreon,4.0,United States
+161,PointClickCare,4.0,Canada
+162,Zapier,4.0,United States
+163,Clubhouse,4.0,United States
+165,Olive,4.0,United States
+166,iCapital Network,4.0,United States
+167,Rubrik,4.0,United States
+168,Melio,4.0,Israel
+169,Vuori,4.0,United States
+170,ClickUp,4.0,United States
+171,Cerebras Systems,4.0,United States
+172,Farmers Business Network,4.0,United States
+173,Ramp Financial,3.9,United States
+174,Intarcia Therapeutics,3.8,United States
+175,StockX,3.8,United States
+177,Guild Education,3.75,United States
+178,Articulate,3.75,United States
+179,FalconX,3.75,United States
+180,Dutchie,3.75,United States
+181,Cohesity,3.7,United States
+182,VAST Data,3.7,United States
+183,GOAT,3.7,United States
+184,Noom,3.7,United States
+185,Redwood Materials,3.7,United States
+186,Papaya Global,3.7,United States
+187,Relativity,3.6,United States
+188,Whoop,3.6,United States
+189,Applied Intuition,3.6,United States
+190,Otto Bock HealthCare,3.52,Germany
+191,Indigo Ag,3.5,United States
+192,HyalRoute,3.5,Singapore
+193,Digit Insurance,3.5,India
+194,Commure,3.5,United States
+195,Mirakl,3.5,France
+196,Coalition,3.5,United States
+197,Tekion,3.5,United States
+198,Alchemy,3.5,United States
+199,Unacademy,3.44,India
+200,MoonPay,3.4,United States
+201,Youxia Motors,3.35,China
+202,OwnBackup,3.35,United States
+203,Upgrade,3.33,United States
+204,Cloudwalk,3.32,China
+205,ECARX,3.31,China
+206,Sila Nanotechnologies,3.3,United States
+207,Scopely,3.3,United States
+208,WeRide,3.3,China
+209,Komodo Health,3.3,United States
+210,Dadi Cinema,3.24,China
+211,Thumbtack,3.2,United States
+212,Flexport,3.2,United States
+213,Cedar,3.2,United States
+214,Back Market,3.2,France
+215,Eruditus Executive Education,3.2,India
+216,Blockstream,3.2,Canada
+217,ConsenSys,3.2,United States
+218,Huitongda,3.18,China
+219,PsiQuantum,3.15,United States
+220,SpotOn,3.15,United States
+221,Udaan,3.1,India
+222,HighRadius,3.1,United States
+223,Nuvemshop,3.1,Brazil
+224,VANCL,3.0,China
+225,Yixia,3.0,China
+227,SouChe Holdings,3.0,China
+228,BGL Group,3.0,United Kingdom
+229,Circle,3.0,United States
+230,Zuoyebang,3.0,China
+231,Delhivery,3.0,India
+232,FlixMobility,3.0,Germany
+233,Wildlife Studios,3.0,Brazil
+234,Pine Labs,3.0,India
+235,ApplyBoard,3.0,Canada
+236,Razorpay,3.0,India
+237,Forter,3.0,United States
+238,Calendly,3.0,United States
+239,BlockFi,3.0,United States
+240,ActiveCampaign,3.0,United States
+241,CMR Surgical,3.0,United Kingdom
+242,Lucid Software,3.0,United States
+243,Age of Learning,3.0,United States
+244,Carbon Health,3.0,United States
+245,ShareChat,3.0,India
+246,Contentful,3.0,Germany
+247,LaunchDarkly,3.0,United States
+248,Hopper,3.0,Canada
+249,Seismic,3.0,United States
+250,Grafana Labs,3.0,United States
+251,Gorillas,3.1,Germany
+252,Ola Electric Mobility,3.0,India
+254,Celsius Network,3.0,United States
+255,Outschool,3.0,United States
+256,TradingView,3.0,United States
+257,Groww,3.0,India
+258,Podium,3.0,United States
+259,Via,3.3,United States
+260,Kraken,2.92,United States
+261,OpenAI,2.92,United States
+263,Workrise,2.9,United States
+264,Loft,2.9,Brazil
+265,OfBusiness,3.0,India
+266,BharatPe,2.85,India
+267,DriveWealth,2.85,United States
+268,Meicai,2.8,China
+269,Icertis,2.8,United States
+270,Weee!,2.8,United States
+271,ContentSquare,2.8,France
+272,Zipline,2.8,United States
+273,Graphcore,2.77,United Kingdom
+274,Illumio,2.75,United States
+275,Convoy,2.75,United States
+276,MasterClass,2.75,United States
+277,Transmit Security,2.74,Israel
+278,Hozon Auto,2.74,China
+279,Tradeshift,2.7,United States
+280,Nextiva,2.7,United States
+281,Flink,2.7,Germany
+282,ManoMano,2.6,France
+283,Sourcegraph,2.62,United States
+284,Pendo,2.6,United States
+285,Plume,2.6,United States
+286,Xinchao Media,2.0,China
+287,JumpCloud,2.62,United States
+289,BYTON,2.5,China
+291,Side,2.5,United States
+292,Lenskart,2.5,India
+293,Infra.Market,2.5,India
+294,Varo Bank,2.5,United States
+295,Cato Networks,2.5,Israel
+296,Aura,2.5,United States
+297,Vercel,2.5,United States
+299,Mobile Premier League,2.45,India
+300,Cybereason,2.44,United States
+301,Cgtz,2.41,China
+302,Star Charge,2.41,China
+303,Carbon,2.4,United States
+304,PolicyBazaar,2.4,India
+305,Paxos,2.4,United States
+306,Exabeam,2.4,United States
+307,BitSight Technologies,2.4,United States
+308,Trumid,2.4,United States
+309,ABL Space Systems,2.4,United States
+310,Bought By Many,2.35,United Kingdom
+313,Biren Technology,2.32,China
+314,Voodoo,2.31,France
+315,Uptake,2.3,United States
+316,KeepTruckin,2.3,United States
+317,Skydance Media,2.3,United States
+318,Greenlight,2.3,United States
+319,Highspot,2.3,United States
+320,Bowery Farming,2.3,United States
+322,Zume,2.25,United States
+323,Algolia,2.25,United States
+324,Pattern,2.25,United States
+325,Planet Labs,2.2,United States
+326,NuCom Group,2.2,Germany
+328,Current,2.2,United States
+330,Gympass,2.2,United States
+332,Reify Health,2.2,United States
+333,Huaqin Telecom Technology,2.19,China
+334,YITU Technology,2.17,China
+335,Addepar,2.17,United States
+336,Cockroach Labs,2.16,United States
+337,Neo4j,2.15,United States
+338,1,2.15,Brazil
+339,FirstCry,2.1,India
+340,Eightfold.ai,2.1,United States
+341,Webflow,2.1,United States
+342,6Sense,2.1,United States
+343,Urban Company,2.1,India
+344,ReCharge,2.1,United States
+345,Moveworks,2.1,United States
+346,Medable,2.1,United States
+347,SoundHound,2.1,United States
+348,Mambu,2.08,Germany
+350,Avant,2.0,United States
+351,Tubatu.com,2.0,China
+352,BlaBlaCar,2.0,France
+353,Quanergy Systems,2.0,United States
+354,HuiMin,2.0,China
+355,Quora,2.0,United States
+356,Improbable,2.0,United Kingdom
+358,Formlabs,2.0,United States
+359,4Paradigm,2.0,China
+360,Calm,2.0,United States
+361,Kaseya,2.0,United States
+362,Mafengwo,2.0,China
+363,Druva,2.0,United States
+364,Kujiale,2.0,China
+365,AppsFlyer,2.0,United States
+366,Keep,2.0,China
+367,Redis Labs,2.0,United States
+368,Xingyun Group,2.0,China
+369,Unqork,2.0,United States
+370,Virta Health,2.0,United States
+371,ISN,2.0,United States
+372,Earnix,2.0,Israel
+373,Guoquan Shihui,2.0,China
+374,Arrail Dental,2.0,China
+375,Clearco,2.0,Canada
+376,Hive,2.0,United States
+378,Kajabi,2.0,United States
+379,Ethos Technologies,2.7,United States
+380,Beisen,2.0,China
+381,Pipe,2.0,United States
+382,Iterable,2.0,United States
+385,Loggi,2.0,Brazil
+386,MURAL,2.0,United States
+387,Pagaya,2.0,Israel
+388,1Password,2.0,Canada
+390,XtalPi,2.0,China
+391,Divvy Homes,2.0,United States
+392,Apeel Sciences,2.0,United States
+396,Misfits Market,2.0,United States
+397,Spring Health,2.0,United States
+398,Black Sesame Technologies,2.0,China
+399,Advance Intelligence Group,2.0,Singapore
+400,Modern Treasury,2.0,United States
+401,Magic Leap,2.0,United States
+402,Tier Mobility,2.0,Germany
+404,ClickHouse,2.0,United States
+406,Everlaw,2.0,United States
+407,Zilch,2.0,United Kingdom
+408,VerbIT,2.0,Israel
+409,StarkWare,2.0,Israel
+410,Netlify,2.0,United States
+411,Deliverr,2.0,United States
+412,SWORD Health,2.0,United States
+413,LTK,2.0,United States
+414,Fenbi Education,1.95,China
+415,Starling Bank,1.95,United Kingdom
+416,InVision,1.9,United States
+417,eDaili,1.9,China
+418,MX Technologies,1.9,United States
+419,Aledade,1.9,United States
+420,CoinSwitch Kuber,1.9,India
+421,ENOVATE,1.85,China
+422,CFGI,1.85,United States
+423,Automattic,1.8,United States
+424,ZocDoc,1.8,United States
+425,Diamond Foundry,1.8,United States
+426,FullStory,1.8,United States
+427,Lightricks,1.8,Israel
+428,Opentrons,1.8,United States
+429,AIWAYS,1.78,China
+430,Creditas,1.75,Brazil
+431,Trulioo,1.75,Canada
+432,Spinny,1.75,India
+433,Orca Security,1.8,Israel
+434,Cars24,1.84,India
+435,Apus Group,1.73,China
+436,Harry's Razor Company,1.7,United States
+437,Allbirds,1.7,United States
+438,PAX,1.7,United States
+439,Harness,1.7,United States
+440,DispatchHealth,1.7,United States
+441,Unite Us,1.7,United States
+442,CircleCI,1.7,United States
+446,Vestiaire Collective,1.7,France
+447,Dragos,1.7,United States
+448,Reltio,1.7,United States
+449,H2O.ai,1.7,United States
+450,ZenBusiness,1.7,United States
+451,Alan,1.68,France
+452,wefox,1.65,Germany
+453,Hibob,1.65,Israel
+454,Trader Interactive,1.63,United States
+455,Jusfoun Big Data,1.62,China
+456,Zhubajie,1.61,China
+457,solarisBank,1.65,Germany
+458,Infinidat,1.6,United States
+460,Cao Cao Mobility,1.6,China
+461,Verkada,1.6,United States
+462,ASR Microelectronics,1.6,China
+463,Clari,1.6,United States
+464,Tonal,1.6,United States
+465,Skims,1.6,United States
+466,Clio,1.6,Canada
+468,Extend,1.6,United States
+470,ASAPP,1.6,United States
+472,Mercury,1.6,United States
+473,HomeLight,1.6,United States
+474,Truepill,1.6,United States
+476,Baiwang,1.55,China
+477,Iluvatar CoreX,1.55,China
+478,Wenheyou,1.55,China
+479,Loom,1.53,United States
+480,Ximalaya FM,1.52,China
+481,Carzone,1.52,China
+482,Mu Sigma,1.5,United States
+483,TuJia,1.5,China
+484,Mofang Living,1.5,China
+485,Gett,1.5,Israel
+486,DT Dream,1.5,China
+487,Changingedu,1.5,China
+488,XiaoZhu,1.5,China
+489,JOLLY Information Technology,1.5,China
+490,Yijiupi,1.5,China
+491,Cambridge Mobile Telematics,1.5,United States
+492,Collective Health,1.5,United States
+493,Strava,1.5,United States
+494,Zenoti,1.5,United States
+495,K Health,1.5,United States
+496,Uplight,1.5,United States
+497,ID.me,1.5,United States
+498,Handshake,1.5,United States
+499,Snapdocs,1.5,United States
+500,Chipper Cash,2.0,United States
+501,Ledger,1.5,France
+502,Next Silicon,1.5,Israel
+503,YunQuNa,1.5,China
+504,dbt Labs,1.5,United States
+505,Impact,1.5,United States
+506,OpenSea,1.5,United States
+507,SmartRecruiters,1.5,United States
+510,TaxBit,1.5,United States
+511,Pacaso,1.5,United States
+512,1047 Games,1.5,United States
+513,Matillion,1.5,United Kingdom
+514,Persona,1.5,United States
+515,Whatnot,1.5,United States
+517,Andela,1.5,United States
+518,Built,1.5,United States
+519,candy.com,1.5,United States
+520,Devo,1.5,United States
+521,CoinList,1.5,United States
+522,Lusha,1.5,United States
+523,CureFit,1.5,India
+524,Yipin Shengxian,1.49,China
+525,Bordrin Motors,1.48,China
+526,Coocaa,1.45,China
+527,Juma Peisong,1.45,China
+528,Ouyeel,1.45,China
+529,Gymshark,1.45,United Kingdom
+530,Zeta,1.45,United States
+531,M1 Finance,1.45,United States
+532,Justworks,1.43,United States
+533,SonderMind,1.42,United States
+534,Papa,1.4,United States
+535,Koudai,1.4,China
+536,Symphony,1.4,United States
+537,Yidian Zixun,1.4,China
+539,Hive Box,1.4,China
+540,Deezer,1.4,France
+541,Away,1.4,United States
+542,Kong,1.4,United States
+544,Yotpo,1.4,United States
+545,Rebel Foods,1.4,India
+546,Coda,1.4,United States
+547,Five Star Business Finance,1.4,India
+548,Stash,1.4,United States
+549,Phenom People,1.4,United States
+550,GupShup,1.4,United States
+551,Degreed,1.4,United States
+552,Astranis Space Technologies,1.4,United States
+553,ChargeBee Technologies,1.4,United States
+554,Scalable Capital,1.4,Germany
+555,VideoAmp,1.4,United States
+556,Panther Labs,1.4,United States
+557,Veepee,1.38,France
+558,DeepBlue Technology,1.35,China
+560,Yaoshibang,1.35,China
+561,At-Bay,1.35,United States
+562,Alloy,1.35,United States
+563,Signifyd,1.34,United States
+564,Motorway,1.33,United Kingdom
+565,Flipboard,1.32,United States
+566,Grove Collaborative,1.32,United States
+568,Tongdun Technology,1.32,China
+569,Alzheon,1.31,United States
+570,HeartFlow,1.3,United States
+571,Sonder,1.3,United States
+572,Trax,1.3,Singapore
+573,You & Mr Jones,1.3,United States
+574,InSightec,1.3,Israel
+575,Everly Health,1.3,United States
+576,Manner,1.3,China
+577,TalkingData,1.3,China
+578,Innovaccer,1.3,United States
+579,DistroKid,1.3,United States
+582,Betterment,1.3,United States
+583,Flock Freight,1.3,United States
+584,YugaByte,1.3,United States
+585,Starry,1.29,United States
+586,Intercom,1.28,United States
+587,OVO Energy,1.28,United Kingdom
+588,Huisuanzhang,1.28,China
+589,WTOIP,1.27,China
+590,ezCater,1.25,United States
+591,BigID,1.25,United States
+592,Rec Room,1.25,United States
+593,Kuaikan Manhua,1.25,China
+594,Marshmallow,1.25,United Kingdom
+595,Honor Technology,1.25,United States
+596,Mythical Games,1.25,United States
+597,Incode Technologies,1.25,United States
+598,BrewDog,1.24,United Kingdom
+599,Enflame,1.24,China
+600,EQRx,1.23,United States
+601,Nexii,1.23,Canada
+602,BlockDaemon,1.23,United States
+603,GalaxySpace,1.22,China
+605,Yiguo,1.2,China
+606,Fair,1.2,United States
+607,Glossier,1.2,United States
+609,Qumulo,1.2,United States
+610,Dialpad,1.2,United States
+611,Starburst,1.2,United States
+612,Tealium,1.2,United States
+613,Public,1.2,United States
+614,Axonius,1.2,United States
+615,Savage X Fenty,1.2,United States
+616,Pipa Coding,1.2,China
+617,Pilot.com,1.2,United States
+618,Aibee,1.2,China
+619,Cava Group,1.3,United States
+620,Vectra Networks,1.2,United States
+621,Ada Support,1.2,Canada
+622,Inari,1.2,United States
+623,Project44,1.2,United States
+624,Alation,1.2,United States
+625,Forto,1.2,Germany
+626,SmartMore,1.2,China
+628,Prime Medicine,1.2,United States
+629,FloQast,1.2,United States
+630,MindTickle,1.2,United States
+631,UpGrad,1.2,India
+632,DailyPay,1.2,United States
+634,Offchain Labs,1.2,United States
+636,Gem,1.2,United States
+637,CarDekho,1.2,India
+638,MyGlamm,1.2,India
+639,AgentSync,1.2,United States
+640,Pristyn Care,1.2,India
+641,Jokr,1.2,United States
+643,Unisound,1.19,China
+644,Mininglamp Technology,1.19,China
+645,Sysdig,1.19,United States
+646,Luoji Siwei,1.18,China
+647,Yimidida,1.17,China
+648,Modern Health,1.17,United States
+649,IRL,1.17,United States
+650,Tuhu,1.16,China
+651,SVOLT Energy,1.16,China
+653,Venafi,1.15,United States
+654,Guideline,1.15,United States
+655,Rebellion Defense,1.15,United States
+656,Elemy,1.15,United States
+657,Doctolib,1.14,France
+658,STORD,1.13,United States
+659,TELD,1.12,China
+660,TangoMe,1.1,United States
+661,AppDirect,1.1,United States
+662,Juanpi,1.1,China
+663,OVH,1.1,France
+664,Eat Just,1.1,United States
+665,GetYourGuide,1.1,Germany
+666,Ivalua,1.1,United States
+667,Sisense,1.1,United States
+668,Course Hero,1.1,United States
+669,Pharmapacks,1.1,United States
+670,SalesLoft,1.1,United States
+671,Sennder,1.1,Germany
+673,Zego,1.1,United Kingdom
+674,Rightway,1.1,United States
+675,Sunbit,1.1,United States
+676,Qingting FM,1.1,China
+678,G2,1.1,United States
+679,Hailo,1.0,Israel
+680,People.ai,1.1,United States
+681,CoinDCX,1.1,India
+682,Carousell,1.1,Singapore
+683,apna,1.1,India
+684,Karat,1.1,United States
+685,Enpal,1.1,Germany
+686,Acko General Insurance,1.1,India
+687,Daily Harvest,1.1,United States
+688,The Bank of London,1.1,United Kingdom
+689,Fundbox,1.1,United States
+690,Nxin,1.08,China
+691,UISEE Technology,1.08,China
+692,56PINGTAI,1.08,China
+693,Rubicon Global,1.07,United States
+694,Radius Payment Solutions,1.07,United Kingdom
+695,Rivigo,1.07,India
+696,Jiuxian,1.05,China
+697,Instabase,1.05,United States
+698,Hesai Tech,1.05,China
+699,Proterra,1.05,United States
+700,Sendbird,1.05,United States
+701,Density,1.05,United States
+702,Mixpanel,1.05,United States
+704,OrCam Technologies,1.03,Israel
+705,Leap Motor,1.01,China
+706,Lookout,1.0,United States
+707,Snapdeal,1.0,India
+708,TechStyle Fashion Group,1.0,United States
+709,InMobi,1.0,India
+710,LinkSure Network,1.0,China
+711,Red Ventures,1.0,United States
+712,BeiBei,1.0,China
+713,Lamabang,1.0,China
+714,JimuBox,1.0,China
+715,BenevolentAI,1.0,United Kingdom
+716,FXiaoKe,1.0,China
+717,Vox Media,1.0,United States
+718,Mia.com,1.0,China
+719,58 Daojia,1.0,China
+720,Womai,1.0,China
+721,HuJiang,1.0,China
+722,iTutorGroup,1.0,China
+724,iCarbonX,1.0,China
+725,SMS Assist,1.0,United States
+726,Kendra Scott,1.0,United States
+727,Mobvoi,1.0,China
+728,Zhuan Zhuan,1.0,China
+729,Modernizing Medicine,1.0,United States
+730,Zhaogang,1.0,China
+731,DianRong,1.0,China
+733,YH Global,1.0,China
+736,Maimai,1.0,China
+737,Dxy.cn,1.0,China
+738,Orbbec Technology,1.0,China
+740,Huike Group,1.0,China
+741,China Cloud,1.0,China
+742,LinkDoc Technology,1.0,China
+743,MediaMath,1.0,United States
+744,Movile,1.0,Brazil
+745,Kuaigou Dache,1.0,China
+746,Pat McGrath Labs,1.0,United States
+747,Wacai,1.0,China
+748,Medlinker,1.0,China
+749,FlashEx,1.0,China
+750,Branch,1.0,United States
+751,Banma Network Technologies,1.0,China
+752,Tresata,1.0,United States
+753,Momenta,1.0,China
+754,Hosjoy,1.0,China
+755,Omio,1.0,Germany
+756,TERMINUS Technology,1.0,China
+758,iFood,1.0,Brazil
+759,Geek+,1.0,China
+760,REEF Technology,1.0,United States
+761,Globality,1.0,United States
+762,Ynsect,1.0,France
+763,Intellifusion,1.0,China
+765,Poizon,1.0,China
+766,VTS,1.0,United States
+767,SITECH DEV,1.0,China
+768,KnowBox,1.0,China
+770,Meero,1.0,France
+771,SumUp,1.0,United Kingdom
+772,Ibotta,1.0,United States
+773,C2FO,1.0,United States
+775,Dave,1.0,United States
+776,EBANX,1.0,Brazil
+777,KK Group,3.0,China
+779,Alto Pharmacy,1.0,United States
+780,o9 Solutions,1.0,United States
+783,Quizlet,1.0,United States
+784,Orca Bio,1.0,United States
+785,Newlink Group,1.0,China
+787,Zwift,1.0,United States
+790,Gousto,1.0,United Kingdom
+791,AInnovation,1.0,China
+792,Boom Supersonic,1.0,United States
+793,Qualia,1.0,United States
+794,DailyHunt,1.0,India
+795,Dremio,1.0,United States
+796,Quantum Metric,1.0,United States
+797,News Break,1.0,United States
+798,MadeiraMadeira,1.0,Brazil
+799,PPRO,1.0,United Kingdom
+800,Splashtop,1.0,United States
+801,DriveNets,1.0,Israel
+803,Axiom Space,1.0,United States
+804,Locus Robotics,1.0,United States
+805,Standard Cognition,1.0,United States
+806,Sentry,1.0,United States
+807,WeBull,1.0,China
+808,Skydio,1.0,United States
+809,Newsela,1.0,United States
+810,Flutterwave,1.0,United States
+811,Aqua Security,1.0,Israel
+812,PatSnap,1.0,Singapore
+813,Evidation,1.0,United States
+814,Sidecar Health,1.0,United States
+815,Lattice,1.0,United States
+816,Feedzai,1.0,United States
+817,Yunxuetang,1.0,China
+818,Cameo,1.0,United States
+819,Fetch Rewards,1.0,United States
+820,Hyperchain,1.0,China
+821,The Zebra,1.0,United States
+822,Clearcover,1.0,United States
+823,Groq,1.0,United States
+824,Fiture,1.0,China
+825,Injective Protocol,1.0,United States
+826,Sift,1.0,United States
+827,SaltPay,1.0,United Kingdom
+828,Capsule,1.0,United States
+829,MOLOCO,1.5,United States
+830,Mux,1.0,United States
+831,XForcePlus,1.0,China
+832,Firefly Aerospace,1.0,United States
+833,HoneyBook,1.1,United States
+834,Shift Technology,1.0,France
+835,TensTorrent,1.0,Canada
+836,Zihaiguo,1.0,China
+837,Forte Labs,1.0,United States
+838,Axtria,1.0,United States
+839,Amount,1.0,United States
+840,Moglix,1.0,Singapore
+841,Vise,1.0,United States
+842,Printful,1.0,United States
+843,Matrixport,1.0,Singapore
+844,Shippo,1.0,United States
+845,Thirty Madison,1.0,United States
+847,EcoFlow,1.0,China
+848,Carro,1.0,Singapore
+849,Tractable,1.0,United Kingdom
+850,Bringg,1.0,Israel
+851,Claroty,1.0,United States
+852,JoyTunes,1.0,Israel
+853,Aircall,1.0,United States
+854,SmartAsset,1.0,United States
+855,Morning Consult,1.0,United States
+856,Visier,1.0,Canada
+857,ShipBob,1.0,United States
+859,Grofers,1.01,India
+861,bolttech,1.0,Singapore
+862,MobileCoin,1.0,United States
+864,Amperity,1.0,United States
+865,Remote,1.0,United States
+866,Pantheon Systems,1.0,United States
+867,Xiaobing,1.0,China
+868,Carson Group,1.0,United States
+870,Interos,1.0,United States
+871,BlackBuck,1.0,India
+872,NIUM,1.0,Singapore
+873,Unico,1.0,Brazil
+874,Human Interest,1.0,United States
+875,Bluecore,1.0,United States
+876,Freshbooks,1.0,Canada
+877,Snorkel AI,1.0,United States
+879,Maven Clinic,1.0,United States
+880,Zetwerk,1.33,India
+882,Shield AI,1.0,United States
+883,PicsArt,1.0,United States
+884,1KMXC,1.0,China
+886,Berlin Brands Group,1.0,Germany
+887,Agile Robots,1.0,Germany
+888,GrubMarket,1.2,United States
+889,Mammoth Biosciences,1.0,United States
+890,Orchard,1.0,United States
+892,TrueLayer,1.0,United Kingdom
+893,Assembly,1.0,United States
+894,PandaDoc,1.0,United States
+895,Keenon Robotics,1.0,China
+896,HAYDON,1.0,China
+897,Ninja Van,1.0,Singapore
+898,Vedantu,1.0,India
+901,Licious,1.0,India
+902,Masterworks,1.0,United States
+903,Chronosphere,1.0,United States
+904,Solo.io,1.0,United States
+905,Swile,1.0,France
+906,Zopa,1.0,United Kingdom
+907,Dental Monitoring,1.0,France
+908,CargoX,1.0,Brazil
+909,Fabric,1.0,United States
+910,Augury,1.0,United States
+911,Moka,1.0,China
+912,Tezign,1.0,China
+913,Vagaro,1.0,United States
+914,Drata,1.0,United States
+915,Razor,1.0,Germany
+916,OpenWeb,1.0,United States
+917,Contrast Security,1.0,United States
+918,Wrapbook,1.0,United States
+919,Gaussian Robotics,1.0,China
+920,Mensa Brands,1.0,India
+921,Heyday,1.0,United States
+922,PLACE,1.0,United States
+923,Stytch,1.0,United States
+924,Owkin,1.0,United States
+925,Expel,1.0,United States
+926,NoBroker,1.0,India
+927,Slice,1.0,India
+928,Thought Machine,1.0,United Kingdom
+929,Lessen,1.0,United States
+931,YipitData,1.0,United States
+932,Anyscale,1.0,United States
+933,Iodine Software,1.0,United States
+934,ReliaQuest,1.0,United States
